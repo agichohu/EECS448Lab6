@@ -6,6 +6,21 @@
 
 class Test
 {
+  public:
 
+    Test(Queue q);
+
+    void testContructor();
+
+    void testIsEmpty();
+
+    void testEnqueue();
+
+    void testDequeue();
+
+    void testPeekFront();
+
+  private:
+    Queue q;
 };
 #endif
