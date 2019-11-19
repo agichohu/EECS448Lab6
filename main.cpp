@@ -13,7 +13,7 @@ int main()
 {
 	Queue q;
 
-	Test test(q);
+	Test test;
 
 	test.run();
 

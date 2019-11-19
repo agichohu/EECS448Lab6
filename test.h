@@ -8,7 +8,7 @@ class Test
 {
   public:
 
-    Test(Queue tq);
+    Test();
 
     void testContructor();
 
@@ -21,8 +21,5 @@ class Test
     void testPeekFront();
 
     void run();
-
-  private:
-    Queue q;
 };
 #endif

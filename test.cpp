@@ -3,13 +3,14 @@
 using namespace std;
 
 
-Test::Test(Queue tq)
+Test::Test()
 {
-  q=tq;
+  cout<<"=========>>RUNNING TEST SUITE<<=========\n";
 }
 
 void Test::testContructor()
 {
+  cout<<"TESTING CONSTRUCTOR\n";
   Queue testQ;
   cout<<"Newly created queue is empty: ";
   if(testQ.isEmpty())
@@ -24,6 +25,7 @@ void Test::testContructor()
 
 void Test::testIsEmpty()
 {
+  cout<<"TESTING ISEMPTY\n";
   Queue Q;
   cout<<"IsEmpty funtionality test:\n";
   cout<<"Testing that isEmpty returns true on empty list: ";
@@ -115,7 +117,7 @@ void Test::testDequeue()
   Q.enqueue(7);
   Q.dequeue();
   cout<<"Testing dequeue works on a single item in a list: ";
-  if(q.isEmpty())
+  if(Q.isEmpty())
   {
     cout<<"PASSED\n";
   }
@@ -142,7 +144,7 @@ void Test::testDequeue()
 void Test::testPeekFront()
 {
   Queue q;
-  cout<<"Testing peekFront\n";
+  cout<<"TESTING PEEKFRONT\n";
   cout<<"Testing that peek front throws error one empty list:";
 
   try
