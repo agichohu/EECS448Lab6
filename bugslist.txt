@@ -1,0 +1,6 @@
+Errors found:
+
+At the root of all failed tests was enqueue. 
+PeekFront and Dequeue only failed when more than one item was added to the list.
+When testing enqueue, it was found that it failed to add to the back of the list and instead seemed to add to the front. 
+This would make PeekFront appear wrong, and would make dqueue appear to remove from the back

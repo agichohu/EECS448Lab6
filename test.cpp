@@ -78,6 +78,7 @@ void Test::testIsEmpty()
 
 void Test::testEnqueue()
 {
+  cout<<"TESTING ENQUEUE\n";
   Queue Q;
   Q.enqueue(123);
   cout<<"Testing enqueue actually adds:\n";
