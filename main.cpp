@@ -15,11 +15,7 @@ int main()
 
 	Test test(q);
 
-	test.testIsEmpty();
-
-	test.testEnqueue();
-
-	test.testDequeue();
+	test.run();
 
 	return(0);
 }

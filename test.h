@@ -8,7 +8,7 @@ class Test
 {
   public:
 
-    Test(Queue q);
+    Test(Queue tq);
 
     void testContructor();
 
@@ -19,6 +19,8 @@ class Test
     void testDequeue();
 
     void testPeekFront();
+
+    void run();
 
   private:
     Queue q;
